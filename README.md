@@ -5,22 +5,22 @@ wordpress-feideconnect
 
 
 
-== Description ==
+## Description
 
 ...
 
 
-== Installation ==
+## Installation
 
 ...
 
-== Inspect database ==
+## Inspect database
 
 
 	select * from wp_usermeta where meta_key = 'uwap_accesstoken';
 	select * from wp_options where option_name like 'uwap-%';
 
-== Reset ==
+## Reset
 
 In order to reset all changes applied to the database:
 
@@ -37,17 +37,17 @@ Disable plugin manually
 
 
 
-== UWAP MongoDB Debug ==
+## UWAP MongoDB Debug
 
 
 
 	db['oauth2-server-clients'].remove({client_name: 'Andreas sin testblogg'});
 
 
-== Changelog ==
+## Changelog
 
 * 0.1.0 Initial version
 
-== Who made this? ==
+## Who made this?
 
 Andreas Åkre Solberg, UNINETT AS.
