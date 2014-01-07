@@ -1,9 +1,11 @@
-Wordpress Plugin for Feide Connect authentication and authorization
-======================
+=== Plugin Name ===
+Contributors: 
+Tags: authentication, saml, uninett, oauth
+Requires at least: 3.0.0
+Tested up to: 3.6.0
+Stable tag: 0.1.0
 
-wordpress-feideconnect
-
-
+Connect Wordpress to UNINETT WebApp Park. <https://uwap.org>.
 
 == Description ==
 
